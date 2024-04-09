@@ -1,19 +1,12 @@
-.container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+.button {
+    border-color: lightblue;
+    background-color: lightblue;
+    transition: background 2s, border-color 2s;
+    transition-delay: 1s;
+	transition-timing-function: ease;
 }
 
-.column {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-    flex-grow: 1;
-}
-
-.double {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-    flex-grow: 2;
+.button:hover {
+    border-color: purple;
+    background-color: lightpink;
 }
